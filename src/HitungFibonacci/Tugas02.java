@@ -16,6 +16,18 @@ public class Tugas02 {
         System.out.print("Masukkan Berat Barang : ");
         jumlah = input.nextInt();
         
+        for(int i = 0;i<5;i++){
+            temp=jumlah;
+            if(jumlah>=berat[i]){
+               x = jumlah/berat[i];
+               total[i] += x*data[i];
+                hasil[i] = x;
+                jumlah = temp%berat[i];
+            }
+            else{
+                hasil[i]=0;
+            }
+        }
         
     }
 }
