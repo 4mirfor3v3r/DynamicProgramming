@@ -28,6 +28,11 @@ public class Tugas02 {
                 hasil[i]=0;
             }
         }
-        
+        for(int i=0;i<5;i++){
+            System.out.println("Barang Jenis "+br[i]+" Sebanyak "+hasil[i]+" Dengan Harga "+total[i]);
+            t +=total[i]; 
+        }
+            System.out.println("");
+            System.out.println("Total Rp."+t);
     }
 }
