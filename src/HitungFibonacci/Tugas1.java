@@ -7,5 +7,10 @@ public class Tugas1 {
         int[] hasil = new int[5];
         int jumlah,x,temp;
         
+        System.out.println("Pecahan Uang Rp. 100, 500, 1000, 2000, 5000");
+        System.out.print("Masukkan Jumlah Uang : ");
+        jumlah = input.nextInt();
+        
+        
     }
 }
