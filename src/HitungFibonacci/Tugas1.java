@@ -22,6 +22,8 @@ public class Tugas1 {
                 hasil[i]=0;
             }
         }
-        
+        for (int i = 0; i < 5; i++) {
+            System.out.println("Uang Rp."+data[i]+" sebanyak "+hasil[i]);
+        }
     }
 }
