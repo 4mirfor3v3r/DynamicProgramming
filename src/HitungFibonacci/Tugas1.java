@@ -11,6 +11,17 @@ public class Tugas1 {
         System.out.print("Masukkan Jumlah Uang : ");
         jumlah = input.nextInt();
         
+        for(int i = 0;i<5;i++){
+            temp=jumlah;
+            if(jumlah>=data[i]){
+               x = jumlah/data[i];
+                hasil[i] = x;
+                jumlah = temp%data[i];
+            }
+            else{
+                hasil[i]=0;
+            }
+        }
         
     }
 }
