@@ -13,6 +13,9 @@ public class Tugas02 {
         int jumlah,x,temp;
         int t=0;
         
+        System.out.print("Masukkan Berat Barang : ");
+        jumlah = input.nextInt();
+        
         
     }
 }
